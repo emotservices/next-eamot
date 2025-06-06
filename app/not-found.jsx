@@ -7,8 +7,8 @@ import Link from "next/link";
 import Image from "next/image";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Page Not Found || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Page Not Found || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function Home() {
   return (

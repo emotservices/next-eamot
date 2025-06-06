@@ -7,8 +7,8 @@ import ShopTitle from "@/components/shop/ShopTitle";
 import Shop from "@/components/shop/Shop";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Shop || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Shop || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function Home() {
   return (

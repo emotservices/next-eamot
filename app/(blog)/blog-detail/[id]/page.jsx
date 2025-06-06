@@ -10,8 +10,8 @@ import { allBlogs } from "@/data/blogs";
 
 import React from "react";
 export const metadata = {
-  title: "Blog Details || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Blog Details || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page({ params }) {
   const singleBlog =

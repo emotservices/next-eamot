@@ -46,18 +46,20 @@ export default function Partners() {
           <div className="col-12">
             <div className="heading-section wow fadeInUp text-center">
               <div className="sub-title">
-                Professionals &amp; teams choose MunAi
+                Trusted by 50 clients across India
               </div>
               <div className="main-title">
-                Best Experience &amp; Power Ai Content&nbsp;
+                Empowering Energy Management with <br />
+                <span className="animation-text">
+                  EMaaS &amp; CMMS Solutions
+                </span>
                 <br />
-                Generator That Delivers{" "}
-                <span className="animation-text">Premium Results</span>
+                Managing 2550 Sites Nationwide
               </div>
             </div>
             <div className="counter text-center">
               <div className="number-counter">
-                <Counter parentClass={"number"} max={9684201} min={1684201} />
+                <Counter parentClass={"number"} max={2550} min={2000} />
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ export const contactLinks = [
     iconClass: "icon-envelope",
     title: "Email Address",
     link: "#",
-    description: "support@gmail.com",
+    description: "hello@eamot.com",
     delay: "0s",
   },
   {
@@ -12,7 +12,7 @@ export const contactLinks = [
     iconClass: "icon-phone",
     title: "Make A Call",
     link: "#",
-    description: "880 123 456 889+",
+    description: "080-41663297",
     delay: "0.1s",
   },
   {
@@ -20,7 +20,8 @@ export const contactLinks = [
     iconClass: "icon-location",
     title: "Office Locations",
     link: "#",
-    description: "5 Main Street, block \nMelbourne, Australia",
+    description:
+      "2nd Floor, 58/1, Paramahansa Yogananda Road, Bengaluru, Karnataka 560038, India",
     delay: "0.2s",
   },
   {

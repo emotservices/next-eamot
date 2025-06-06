@@ -16,7 +16,7 @@ import ScrollTop from "@/components/common/ScrollTop";
 import Services from "@/components/homes/home-1/Service";
 export const metadata = {
   title: "EAMOT - Maintainance Tech with EMaaS and CMMS",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page() {
   return (

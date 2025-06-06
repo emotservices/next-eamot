@@ -9,11 +9,10 @@ export default function Team() {
         <div className="row items-center">
           <div className="col-12">
             <div className="heading-section wow fadeInUp text-center">
-              <h6>Create Team Member</h6>
+              <h6>Meet Our Experts</h6>
               <div className="main-title">
-                We Have an Experience Team <br />
-                Meet Our Creative{" "}
-                <span className="animation-text">Team Member</span>
+                Experienced Leadership in <br />
+                <span className="animation-text">AI &amp; CMMS Solutions</span>
               </div>
             </div>
           </div>

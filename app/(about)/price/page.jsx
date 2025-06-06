@@ -10,8 +10,8 @@ import React from "react";
 import Partners from "@/components/about/Partners";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Pricing || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Pricing || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page() {
   return (

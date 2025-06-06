@@ -13,8 +13,8 @@ import React from "react";
 import Mouse from "@/components/common/Mouse";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Home 3 || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Home 3 || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page() {
   return (

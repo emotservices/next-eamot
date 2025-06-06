@@ -1,97 +1,49 @@
 export const teamMembers = [
   {
     id: 1,
-    image: "/assets/images/team-member/image-01.jpg",
-    name: "Alexander S. Gallo",
-    role: "Creative Designer",
+    image: "/assets/images/team-member/Manish-Kapoor.jpg",
+    name: "Manish Kapoor",
+    role: "Founder and MD",
     socials: [
-      {
-        platform: "facebook",
-        icon: "icon-facebook",
-      },
-      {
-        platform: "twitter",
-        icon: "icon-twitter",
-      },
       {
         platform: "linkedin",
         icon: "icon-linkedin2",
-      },
-      {
-        platform: "instagram",
-        icon: "icon-instagram",
       },
     ],
   },
   {
     id: 2,
-    image: "/assets/images/team-member/image-02.jpg",
-    name: "Jason E. Pacheco",
-    role: "AI Code Developer",
+    image: "/assets/images/team-member/Nikesh-Masiwal.jpg",
+    name: "Nikesh Masiwal",
+    role: "Head Of Engineering",
     socials: [
-      {
-        platform: "facebook",
-        icon: "icon-facebook",
-      },
-      {
-        platform: "twitter",
-        icon: "icon-twitter",
-      },
       {
         platform: "linkedin",
         icon: "icon-linkedin2",
-      },
-      {
-        platform: "instagram",
-        icon: "icon-instagram",
       },
     ],
   },
   {
     id: 3,
-    image: "/assets/images/team-member/image-03.jpg",
-    name: "Ronald L. Townsend",
-    role: "Media Generator",
+    image: "/assets/images/team-member/Puneet-Pruthi.jpg",
+    name: "Puneet Pruthi",
+    role: "Head Of Operation",
     socials: [
-      {
-        platform: "facebook",
-        icon: "icon-facebook",
-      },
-      {
-        platform: "twitter",
-        icon: "icon-twitter",
-      },
       {
         platform: "linkedin",
         icon: "icon-linkedin2",
-      },
-      {
-        platform: "instagram",
-        icon: "icon-instagram",
       },
     ],
   },
   {
     id: 4,
-    image: "/assets/images/team-member/image-04.jpg",
-    name: "Thomas R. Mummert",
-    role: "AI Image Designer",
+    image: "/assets/images/team-member/Shiv-Garg.jpg",
+    name: "Shiv k Garg",
+    role: "VP : New Energy Initiatives",
     socials: [
-      {
-        platform: "facebook",
-        icon: "icon-facebook",
-      },
-      {
-        platform: "twitter",
-        icon: "icon-twitter",
-      },
       {
         platform: "linkedin",
         icon: "icon-linkedin2",
-      },
-      {
-        platform: "instagram",
-        icon: "icon-instagram",
       },
     ],
   },

@@ -19,7 +19,7 @@ export default function FlatTitle() {
                 <Link href={`/`}>Home</Link>
               </li>
               <li className="active">
-                <a href="#">About Company</a>
+                <a href="#"></a>
               </li>
             </ul>
           </div>

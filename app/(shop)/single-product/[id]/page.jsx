@@ -10,8 +10,8 @@ import RelatedProducts from "@/components/shop/RelatedProducts";
 import { products } from "@/data/shop";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Single Product || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Single Product || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function Home({ params }) {
   const productItem =
