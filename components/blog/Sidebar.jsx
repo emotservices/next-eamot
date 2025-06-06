@@ -26,9 +26,20 @@ export default function Sidebar() {
         </form>
       </div>
       <div className="widget widget-categories">
-        <h4 className="title-widget">Category</h4>
+        <h4 className="title-widget">Categories</h4>
         <ul>
-          {categories.map((category, index) => (
+          {[
+            "Asset Management",
+            "Preventive Maintenance",
+            "Predictive Maintenance",
+            "Work Order Management",
+            "Inventory Management",
+            "Equipment Monitoring",
+            "Compliance & Safety",
+            "Energy Management",
+            "Sustainability",
+            "Maintenance Analytics",
+          ].map((category, index) => (
             <li key={index}>
               <div className="cate-item">
                 <a href="#">{category}</a>
@@ -39,8 +50,33 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="widget widget-recent-news">
-        <h4 className="title-widget">Recent News</h4>
-        {recentBlogs.map((newsItem, index) => (
+        <h4 className="title-widget">Recent Articles</h4>
+        {[
+          {
+            id: 1,
+            imgSrc: "/assets/images/blog/related-01.jpg",
+            title: "Best Practices for Preventive Maintenance Planning",
+            date: "15 May 2024",
+          },
+          {
+            id: 2,
+            imgSrc: "/assets/images/blog/related-02.jpg",
+            title: "How IoT is Transforming Asset Management",
+            date: "12 May 2024",
+          },
+          {
+            id: 3,
+            imgSrc: "/assets/images/blog/sidebar-02.jpg",
+            title: "Implementing Predictive Maintenance Strategies",
+            date: "10 May 2024",
+          },
+          {
+            id: 4,
+            imgSrc: "/assets/images/blog/sidebar-03.jpg",
+            title: "Optimizing Maintenance Workflows with CMMS",
+            date: "8 May 2024",
+          },
+        ].map((newsItem, index) => (
           <div className="recent-news-item" key={index}>
             <div className="card-media">
               <Image
@@ -70,13 +106,16 @@ export default function Sidebar() {
         />
         <div className="content">
           <div className="title">
-            <div className="text">Sign Up For 7days</div>
-            <span className="text-1">Free Trial AI </span>
-            <span className="text-2">Account</span>
+            <div className="text">Start Your 14-Day</div>
+            <span className="text-1">Free Trial of </span>
+            <span className="text-2">EAMOT Platform</span>
           </div>
-          <p>To take trivial example which ever undertakes laborious chooses</p>
+          <p>
+            Experience the power of modern asset management and maintenance
+            solutions
+          </p>
           <a href="#" className="tf-button">
-            <span>Sign In</span>
+            <span>Get Started</span>
             <i className="icon-arrow-right2" />
           </a>
         </div>
@@ -84,9 +123,20 @@ export default function Sidebar() {
       <div className="widget widget-tag">
         <h4 className="title-widget">Popular Tags</h4>
         <ul className="flex flex-wrap gap10">
-          {tags.map((category, index) => (
+          {[
+            "Maintenance",
+            "Assets",
+            "IoT",
+            "Predictive",
+            "Analytics",
+            "Compliance",
+            "Safety",
+            "Energy",
+            "Sustainability",
+            "Work Orders",
+          ].map((tag, index) => (
             <li key={index}>
-              <a href="#">{category}</a>
+              <a href="#">{tag}</a>
             </li>
           ))}
         </ul>
