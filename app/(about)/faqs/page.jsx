@@ -12,8 +12,8 @@ import Header1 from "@/components/headers/Header1";
 import React from "react";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Faqs || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Faqs || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page() {
   return (

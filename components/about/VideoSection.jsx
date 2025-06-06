@@ -51,7 +51,7 @@ export default function VideoSection() {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
-        videoId="Y8XpQpW5OVY"
+        videoId="8we7XJ4i7xk"
         onClose={() => setOpen(false)}
       />
     </>

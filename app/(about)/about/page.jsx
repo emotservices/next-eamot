@@ -7,13 +7,13 @@ import Testimonials from "@/components/about/Testimonials";
 import Tools from "@/components/about/Tools";
 import VideoSection from "@/components/about/VideoSection";
 import Mouse from "@/components/common/Mouse";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import Footer1 from "@/components/footers/Footer2";
+import Header1 from "@/components/headers/Header2";
 import React from "react";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "About Us || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "About Us || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function page() {
   return (

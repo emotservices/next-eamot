@@ -20,17 +20,16 @@ export default function Features() {
           <div className="col-md-6">
             <div className="content">
               <div className="heading-section wow fadeInUp">
-                <h6>Welcome to MunAi</h6>
-                <div className="main-title">
-                  All the Creative Tools you <br />
-                  Need in <span className="animation-text">One Platform</span>
-                </div>
+                <h6>Innovating in Energy Management</h6>
+                <p>
+                  Since 25 years, led by founder Manish Kapoor, our team of
+                  experts is dedicated to providing innovative and customized
+                  solutions that help our clients optimize their energy usage
+                  and reduce costs. We leverage the latest technologies,
+                  including IoT and AI, to provide real-time data and predictive
+                  analytics that enable smarter energy management.
+                </p>
               </div>
-              <p className="">
-                We denounce with righteous indignation and dislike men who are
-                beguiled and demoralized by the charms of pleasure of the moment
-                blinded desire that they cannot foresee and trouble
-              </p>
               <ul className="list-item">
                 {listItems.map((elm, i) => (
                   <li key={i}>
@@ -40,7 +39,7 @@ export default function Features() {
                 ))}
               </ul>
               <a href="#" className="tf-button type-1">
-                <span>Generate AI Post</span>
+                <span>Career Opportunities</span>
                 <i className="icon-arrow-right2" />
               </a>
             </div>

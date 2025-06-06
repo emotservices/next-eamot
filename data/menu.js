@@ -29,13 +29,8 @@ export const menuItems = [
   {
     id: 4,
     text: "About Us",
-    url: "#",
-    subMenu: [
-      { text: "CSR and Training", url: "/about/csr" },
-      { text: "Careers", url: "/about/careers" },
-      { text: "About the Company", url: "/about/company" },
-    ],
-    hasChildren: true,
+    url: "/about",
+    hasChildren: false,
   },
   {
     id: 5,

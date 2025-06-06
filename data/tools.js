@@ -11,7 +11,7 @@ export const tools = [
   {
     id: 2,
     iconClass: "icon-pen",
-    title: "Eliminate Writer’s Block",
+    title: "Eliminate Writer's Block",
     description:
       "Must explain to you how all this mistaken idea seen denouncing pleasure and praising",
     order: "02",
@@ -58,41 +58,42 @@ export const tools = [
 export const tools2 = [
   {
     id: 1,
-    icon: "icon-folders",
-    title: "AI Copyrighting",
+    icon: "icon-ai",
+    title: "AI Solutions",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Harness the power of AI for efficient energy management and optimization.",
     order: "01",
     delay: "0s",
   },
   {
     id: 2,
-    icon: "icon-code",
-    title: "Coding Assistant",
+    icon: "icon-data",
+    title: "Data Analytics",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Utilize data-driven insights to enhance decision-making and performance.",
     order: "02",
     delay: "0.1s",
   },
   {
     id: 3,
-    icon: "icon-images",
-    title: "Image Generator",
+    icon: "icon-analysis",
+    title: "Predictive Analysis",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Leverage predictive analytics for proactive maintenance and cost reduction.",
     order: "03",
     delay: "0.2s",
   },
   {
     id: 4,
-    icon: "icon-chart-network",
-    title: "AI Social Media",
+    icon: "icon-maintenance",
+    title: "Maintenance Management",
     description:
-      "Must explain to you how all this mistaken idea seen denouncing pleasure",
+      "Streamline maintenance processes with advanced CMMS solutions.",
     order: "04",
     delay: "0.3s",
   },
 ];
+
 export const tools3 = [
   {
     id: 1,

@@ -6,11 +6,11 @@ import ContactInfo from "@/components/contact/ContactInfo";
 import FlatTitle from "@/components/contact/FlatTitle";
 import Map from "@/components/contact/Map";
 import Message from "@/components/contact/Message";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+import Footer1 from "@/components/footers/Footer2";
+import Header1 from "@/components/headers/Header2";
 export const metadata = {
-  title: "Contact Us || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Contact Us || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 import React from "react";
 

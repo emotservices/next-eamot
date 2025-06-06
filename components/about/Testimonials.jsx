@@ -32,12 +32,13 @@ export default function Testimonials() {
           <div className="col-md-5 testimonial-item1">
             <div className="content">
               <h2>
-                Customer Reviews Read What Our Clients Say{" "}
-                <span className="animation-text">About Us</span>
+                What Our Clients Say About{" "}
+                <span className="animation-text">EAMOT</span>
               </h2>
               <p>
-                Ut enim ad minima veniam nostrum exercitationem corporis
-                suscipit laboriosam nisiut aliquid consequature
+                Discover how EAMOT's EMaaS and CMMS solutions have empowered
+                organizations across India to optimize energy usage, streamline
+                maintenance, and achieve operational excellence.
               </p>
             </div>
           </div>

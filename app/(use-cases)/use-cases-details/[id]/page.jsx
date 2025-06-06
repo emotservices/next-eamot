@@ -12,8 +12,8 @@ import Steps from "@/components/use-cases/Steps";
 import Testimonials from "@/components/use-cases/Testimonials";
 import { useCases } from "@/data/features";
 export const metadata = {
-  title: "Use Cases Details || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Use Cases Details || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 import React from "react";
 

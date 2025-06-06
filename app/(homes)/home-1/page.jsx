@@ -14,8 +14,8 @@ import Tool from "@/components/homes/home-1/Tool";
 import Mouse from "@/components/common/Mouse";
 import ScrollTop from "@/components/common/ScrollTop";
 export const metadata = {
-  title: "Home 1 || MunAi - AI Writer & Copywriting Nextjs Template",
-  description: "MunAi - AI Writer & Copywriting Nextjs Template",
+  title: "Home 1 || EAMOT - EMaaS and CMMS",
+  description: "EAMOT - EMaaS and CMMS",
 };
 export default function Home() {
   return (
