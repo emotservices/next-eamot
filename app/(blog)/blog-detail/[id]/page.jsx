@@ -13,6 +13,8 @@ export const metadata = {
   title: "Blog Details || EAMOT - EMaaS and CMMS",
   description: "EAMOT - EMaaS and CMMS",
 };
+export const revalidate = 60; // Regenerate page every 60 seconds
+
 export default function page({ params }) {
   const singleBlog =
     allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];

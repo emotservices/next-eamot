@@ -70,6 +70,7 @@ export default function Pricing() {
                 <a
                   href="#"
                   className={`tf-button style-3 ${i !== 1 ? "h45" : ""}`}
+                  data-demo-button
                 >
                   <span>Get Started</span>
                   <i className="icon-arrow-right2" />

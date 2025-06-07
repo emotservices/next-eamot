@@ -44,6 +44,11 @@ export const menuItems = [
   },
   {
     id: 7,
+    text: "Request Demo",
+    url: "/request-demo",
+  },
+  {
+    id: 8,
     text: "Contact Us",
     url: "/contact-us",
   },

@@ -82,7 +82,7 @@ export default function Pricing() {
                       ? plan.priceYearly
                       : plan.priceMonthly}
                   </div>
-                  <a href="#" className="tf-button">
+                  <a href="#" className="tf-button" data-demo-button>
                     <span>Get Started</span>
                     <i className="icon-arrow-right2" />
                   </a>

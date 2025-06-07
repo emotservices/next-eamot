@@ -4,6 +4,7 @@ import "../public/assets/css/main.css";
 
 import { usePathname } from "next/navigation";
 import { ToastContainer } from "react-toastify";
+import DemoPopup from "@/components/common/DemoPopup";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
           pauseOnHover
         />
         {children}
+        <DemoPopup />
       </body>
     </html>
   );

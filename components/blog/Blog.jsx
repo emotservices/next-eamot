@@ -51,14 +51,14 @@ export default function Blog({ posts = [] }) {
                         </h3>
                         <div className="bottom">
                           <div className="author">
-                            <i className="icon-user" />
+                            <i className="icon-details" />
                             {/* Add author if you have it in your model */}
-                            <span>
+                            <p>
                               {
                                 post.fields.contentBlog.content[0].content[0]
                                   .value
                               }
-                            </span>
+                            </p>
                           </div>
                           <Link
                             href={`/blog-detail/${post.fields.id}`}

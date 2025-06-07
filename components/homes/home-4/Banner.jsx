@@ -190,7 +190,7 @@ export default function Banner() {
                   <span>Schedule Demo</span>
                   <i className="icon-arrow-right2" />
                 </a>
-                <a href="#" className="tf-button style-yellow">
+                <a href="#" className="tf-button" data-demo-button>
                   <span>Start Free Trial</span>
                   <i className="icon-arrow-right2" />
                 </a>
