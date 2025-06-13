@@ -20,15 +20,17 @@ export default function Banner() {
                       className="item-text tf-color-green is-visible"
                       style={{ opacity: 1 }}
                     >
-                      {"Management".split("").map((elm, i) => (
-                        <span
-                          key={i}
-                          className="rorateLetterAnim"
-                          style={{ animationDelay: i * 0.07 + "s" }}
-                        >
-                          {elm}
-                        </span>
-                      ))}
+                      {"Management Monitoring Maintainance"
+                        .split(" ")
+                        .map((elm, i) => (
+                          <span
+                            key={i}
+                            className="rorateLetterAnim"
+                            style={{ animationDelay: i * 0.07 + "s" }}
+                          >
+                            {elm}
+                          </span>
+                        ))}
                     </span>
                   </span>
                 </span>
@@ -40,7 +42,7 @@ export default function Banner() {
                 management
               </p>
               <div className="grid-button flex gap20 items-center mb-50">
-                <a href="#" className="tf-button style-2">
+                <a href="#" className={`tf-button style-3"}`} data-demo-button>
                   <span>Book a Demo</span>
                   <i className="icon-arrow-right2" />
                 </a>

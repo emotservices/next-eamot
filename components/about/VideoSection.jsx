@@ -15,16 +15,16 @@ export default function VideoSection() {
                 <Image
                   className="img-01 wow fadeInUp"
                   data-wow-delay="0.1s"
-                  src="/assets/images/bg-section/image-01.png"
+                  src="/assets/images/about/3.png"
                   alt="image"
                   width={310}
                   height={470}
                 />
                 <div className="video-wrap style-2 wow fadeInUp">
                   <Image
-                    src="/assets/images/bg-section/image-08.png"
-                    width={660}
-                    height={470}
+                    src="/assets/images/about/2.png"
+                    width={553}
+                    height={483}
                     alt="image"
                   />
                   <a onClick={() => setOpen(true)} className="popup-youtube">
@@ -36,7 +36,7 @@ export default function VideoSection() {
                 <Image
                   className="img-03 wow fadeInUp"
                   data-wow-delay="0.1s"
-                  src="/assets/images/bg-section/image-09.png"
+                  src="/assets/images/about/4.jpg"
                   width={202}
                   height={376}
                   alt="image"

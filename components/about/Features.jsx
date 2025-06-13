@@ -10,7 +10,7 @@ export default function Features() {
           <div className="col-md-6">
             <div className="image text-center wow fadeInUp">
               <Image
-                src="/assets/images/bg-section/image-17.png"
+                src="/assets/images/about/about-emass.jpg"
                 width={555}
                 height={485}
                 alt="image"

@@ -131,10 +131,10 @@ export default function Footer1() {
               </p>
               <ul className="">
                 <li>
-                  <a href="#">Terms Of Use </a>
+                  <Link href="/terms-and-conditions">Terms Of Use</Link>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
                   <a href="#">FAQs</a>
