@@ -15,9 +15,8 @@ export default function Faq() {
               </div>
             </div>
             <p className="text">
-              We denounce with righteous indignation and dislike <br />
-              men who are beguiled and demoralized by the charms <br />
-              pleasure of the moment blinded by desire
+              FAQ's about the product and EMaaS, <br />
+              please check the FAQ's below
             </p>
             <a href="#" className="tf-button style-2 mb-15">
               <span>Learn More</span>

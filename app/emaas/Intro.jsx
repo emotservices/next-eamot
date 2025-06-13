@@ -24,7 +24,7 @@ export default function Intro({ title, description, moduleData }) {
               </div>
               <p className="">
                 {description ||
-                  "We denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure"}
+                  "FAQ's about the product and EMaaS by the charms of pleasure"}
               </p>
               <a href="#" className="tf-button type-1">
                 <span>Get Started</span>

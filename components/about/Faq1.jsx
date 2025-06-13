@@ -15,10 +15,7 @@ export default function Faq1() {
                 <span className="animation-text">questions</span>
               </div>
             </div>
-            <p className="text">
-              We denounce with righteous indignation and dislike men who are
-              beguiled and demoralized
-            </p>
+            <p className="text">FAQ's about the product and EMaaS</p>
           </div>
           <div className="col-md-7">
             <div className="flat-accordion">
