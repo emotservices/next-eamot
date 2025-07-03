@@ -47,4 +47,28 @@ export const teamMembers = [
       },
     ],
   },
+  {
+    id: 5,
+    image: "/assets/images/team-member/VandanaKapoor.png",
+    name: "Vandana Kapoor",
+    role: "CHRO & Head of HR",
+    socials: [
+      {
+        platform: "linkedin",
+        icon: "icon-linkedin2",
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: "/assets/images/team-member/JayantSinha.png",
+    name: "Jayant Sinha",
+    role: "Advisor",
+    socials: [
+      {
+        platform: "linkedin",
+        icon: "icon-linkedin2",
+      },
+    ],
+  },
 ];

@@ -17,8 +17,8 @@ export default function Team() {
             </div>
           </div>
           {teamMembers.map((member, index) => (
-            <div className="col-lg-3 col-md-6 z-5" key={index}>
-              <div className="member-item">
+            <div className="col-lg-4 col-md-6 z-5 margin-bottom-20" key={index}>
+              <div className="member-item margin-bottom-20">
                 <div className="image">
                   <Image
                     src={member.image}
@@ -34,7 +34,7 @@ export default function Team() {
                     ))}
                   </ul>
                 </div>
-                <div className="content">
+                <div className="content margin-top-20">
                   <h4>
                     <a href="#">{member.name}</a>
                   </h4>

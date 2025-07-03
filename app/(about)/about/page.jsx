@@ -11,6 +11,8 @@ import Footer1 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header2";
 import React from "react";
 import ScrollTop from "@/components/common/ScrollTop";
+import Awards from "@/app/(homes)/home-2/Awards";
+
 export const metadata = {
   title: "About Us || EAMOT - EMaaS and CMMS",
   description: "EAMOT - EMaaS and CMMS",
@@ -28,6 +30,7 @@ export default function page() {
           <Partners />
           <VideoSection />
           <Testimonials />
+          <Awards />
           <Cta />
 
           <Footer1 />

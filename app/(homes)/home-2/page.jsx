@@ -14,6 +14,7 @@ import React from "react";
 import Mouse from "@/components/common/Mouse";
 import ScrollTop from "@/components/common/ScrollTop";
 import Services from "@/components/homes/home-1/Service";
+import Awards from "./Awards";
 export const metadata = {
   title: "EAMOT - Maintainance Tech with EMaaS and CMMS",
   description: "EAMOT - EMaaS and CMMS",
@@ -33,6 +34,7 @@ export default function page() {
             <Pricing />
             <Partners />
             <Testimonials />
+            <Awards />
             <Services />
             <Faq />
             <Cta />
